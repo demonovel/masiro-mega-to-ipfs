@@ -6,6 +6,7 @@
   "author": "bluelovers",
   "main": "index.js",
   "scripts": {
+    "ci:install": "yarn",
     "build": "node ./index.js",
     "postbuild": "git commit -m \"update task [skip ci]\" ./test/cache",
     "postpublish_": "git commit -m \"chore(release): publish\" .",
