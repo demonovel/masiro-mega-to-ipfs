@@ -8,7 +8,7 @@
   "scripts": {
     "ci:install": "yarn",
     "build": "node ./index.js",
-    "postbuild": "git commit -m \"update task [skip ci]\" ./test/cache",
+    "postbuild": "git commit -m \"update task [skip ci]\" ./test/cache & echo commit",
     "postpublish_": "git commit -m \"chore(release): publish\" .",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
