@@ -22,7 +22,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "node ./index.js",
-    "postbuild": "git commit -m \"update task [skip ci]\" ./test/cache & echo commit",
+    "postbuild": "git commit -m \"update task [skip ci]\" ./test/cache & echo postbuild",
     "npm:publish": "npm publish",
     "npm:publish:lerna": "ynpx --quiet lerna -- publish --yes --bump patch",
     "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
