@@ -2,25 +2,25 @@
 # yarn lockfile v1
 
 
-"@bluelovers/ipfs-http-client@^1.0.51":
-  version "1.0.51"
-  resolved "https://registry.npmjs.org/@bluelovers/ipfs-http-client/-/ipfs-http-client-1.0.51.tgz#33bced2a2d291fc7cc554966da552cde1a0bb3a2"
-  integrity sha512-XjVJLRmvf7ouo1GhjFgJqu5FkDLY1yTuOb/k7hw+0cJnJbU8nxqjdMZnb4GvCgF2L2gW2g36+0Nq+cDeWf+wAg==
+"@bluelovers/ipfs-http-client@^1.0.52":
+  version "1.0.52"
+  resolved "https://registry.npmjs.org/@bluelovers/ipfs-http-client/-/ipfs-http-client-1.0.52.tgz#66f28eb03e003d78e4131fa4b711dbef08a83119"
+  integrity sha512-u9gXCve5z9iwoZfFAAUwZiUK0j2PyBgbGKqvZzGWxtjiMT14iGm4wL3lY3RLLACkq9EWcyPtHIhegL3Dwsdzyg==
   dependencies:
     ipfs-env "^1.0.3"
-    ipfs-types "^1.0.24"
-    ipfs-util-lib "^1.0.36"
-    ts-type "^1.2.17"
+    ipfs-types "^1.0.25"
+    ipfs-util-lib "^1.0.37"
+    ts-type "^1.2.23"
 
 "@bluelovers/tsconfig@^1.0.19":
   version "1.0.19"
   resolved "https://registry.npmjs.org/@bluelovers/tsconfig/-/tsconfig-1.0.19.tgz#0e448c1138263fc110491f88417833119fe26b4a"
   integrity sha512-mKkOcx2DlfuLy4N04f0Mh0dS8PoeWk1BkHVqdQLMUN0nxZ2kIB8UUoVhQG9R7ZDp/fT9hA5FxQfRMNcOqU8sRg==
 
-"@demonovel/cached-data@^1.0.25":
-  version "1.0.25"
-  resolved "https://registry.npmjs.org/@demonovel/cached-data/-/cached-data-1.0.25.tgz#de2d31dcf030db0aa5b1f4d81761d0667cfebb6e"
-  integrity sha512-Z68ijoxHNz38kwTTmTayv6uQGlh+RYTaSNGpPPZ1IJEC63Nydv+lf3q3j59Z1E+obMCZgPMnn54o+DaQQ6IOmQ==
+"@demonovel/cached-data@^1.0.26":
+  version "1.0.26"
+  resolved "https://registry.npmjs.org/@demonovel/cached-data/-/cached-data-1.0.26.tgz#f1afb097334e3fe61794a7aceca13adb72a7008a"
+  integrity sha512-N41Bv82rLksqrmNTTqwJfrCi00nKYe6js6ntQk51LhbdfzeJGIQUPXBYpmd6WBZaKJk67QlCMHKJvDM9X6b/JA==
 
 "@demonovel/db-api@^1.0.5":
   version "1.0.5"
@@ -34,12 +34,12 @@
     http-proxy-agent "^4.0.1"
     is-error-code "^1.0.0"
 
-"@lazy-ipfs/to-cid@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/@lazy-ipfs/to-cid/-/to-cid-1.0.4.tgz#6c42fc5d3a4e7abf74fd80ed561579f78a2fc42a"
-  integrity sha512-TgPzHqIHlBmb2nFzB260NeT3XCYgI0iMBn4RyjE+hKZ4IDwSp0VjclNmuSQzoQoLdS5VN3iYGJgHTILjk7Gy0g==
+"@lazy-ipfs/to-cid@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@lazy-ipfs/to-cid/-/to-cid-1.0.5.tgz#9e7540ef755d9b9564835a56033f2ef961a340cf"
+  integrity sha512-w56pV1Lsa7YgqCSJExtdfVrCWzhYAI0/urm1kCNojIdxoTyzK8T3rLopeQVHQNxJa4IdkWlKBmjpOCI7YvuUsw==
   dependencies:
-    ipfs-types "^1.0.24"
+    ipfs-types "^1.0.25"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -90,6 +90,11 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-14.0.13.tgz#ee1128e881b874c371374c1f72201893616417c9"
   integrity sha512-rouEWBImiRaSJsVA+ITTFM6ZxibuAlTuNOCyxVbwreu6k6+ujs7DfnU9o+PShFhET78pMBl3eH+AGSI5eOTkPA==
 
+abort-controller-timer@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/abort-controller-timer/-/abort-controller-timer-1.0.6.tgz#080fb1d5053b2ec53a6dc4c9882dafcb6852320a"
+  integrity sha512-WzzY9Q598F0qZs4hHxer7q4OFqerIgHvQBsC7veLIoyS25N0S4Bs6aCg0li7cPATEm1bi5Q0OXTOhJMojktzAw==
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
@@ -136,7 +141,7 @@ any-signal@^1.1.0:
   dependencies:
     abort-controller "^3.0.0"
 
-array-hyper-unique@^1.1.0:
+array-hyper-unique@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/array-hyper-unique/-/array-hyper-unique-1.1.2.tgz#2bf8e5aa01c07ebe875c94962f04b7fa26a1ee56"
   integrity sha512-fjJkP/Stte49ot5OvazHMIf3OgProDZSXSpIXm1ZMNiYU8fz0TPfAfGO1D1EVuJAxCF91WcQeQfvEBlbfdtSzA==
@@ -274,15 +279,15 @@ caseless@~0.12.0:
     supports-color "^5.3.0"
 
 cids@^0.8.0, cids@~0.8.0:
-  version "0.8.1"
-  resolved "https://registry.npmjs.org/cids/-/cids-0.8.1.tgz#24a6e1c78ba27d1b80bd7e99e7d450a74a987014"
-  integrity sha512-bs9hGUYHzsclGSt4ipi6SRUBIWYpuEHhd2uPc5hUatNQl6y5mFr+6JvJtN3fGUiNZNohc7rkY6OpXamwj6PQeg==
+  version "0.8.2"
+  resolved "https://registry.npmjs.org/cids/-/cids-0.8.2.tgz#b87a95508bc03449350ead5d40c3dde9266d5694"
+  integrity sha512-2tEASn0yDUPkXPUjXm3UslYyt4KWh8lQLaR5Yh68w55a5nZgFYzO2LK44c79228XL4UWMb4Wa4jQO4/8s2xLSg==
   dependencies:
-    buffer "^5.5.0"
+    buffer "^5.6.0"
     class-is "^1.1.0"
-    multibase "~0.7.0"
+    multibase "^1.0.0"
     multicodec "^1.0.1"
-    multihashes "~0.4.17"
+    multihashes "~0.4.19"
 
 cids@~0.7.0:
   version "0.7.5"
@@ -317,7 +322,7 @@ color-name@1.1.3:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-combined-stream@^1.0.5, combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
+combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
@@ -339,13 +344,12 @@ core-util-is@1.0.2:
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cross-fetch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.4.tgz#7bef7020207e684a7638ef5f2f698e24d9eb283c"
-  integrity sha512-MSHgpjQqgbT/94D4CyADeNoYh52zMkCX4pcJvPP5WqPsLFMKjr2TCMg381ox5qI0ii2dPwaLx/00477knXqXVw==
+cross-fetch@^3.0.4, cross-fetch@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.5.tgz#2739d2981892e7ab488a7ad03b92df2816e03f4c"
+  integrity sha512-FFLcLtraisj5eteosnX1gf01qYDCOc4fDy0+euOt8Kn9YBY2NtXL/pCoYPavw24NIQkQqm5ZOLsGD5Zzj0gyew==
   dependencies:
     node-fetch "2.6.0"
-    whatwg-fetch "3.0.0"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -354,10 +358,10 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-debug-color2@^1.1.7, debug-color2@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/debug-color2/-/debug-color2-1.2.2.tgz#61c0f8cc33fe19bb21d6154d1c1907194b8b4f5c"
-  integrity sha512-wntAbabOMCDwb4BssXvT3XCQ2dlgzsof4Zykai+WyEiydV31Qaf9clr+kNyhBxTRoJx7Xyn1EvPyd1DfpoSWng==
+debug-color2@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npmjs.org/debug-color2/-/debug-color2-1.2.3.tgz#bfe05adcd57e042a37c3eccc36de840f78a1f263"
+  integrity sha512-38TpLia2bzmW0TQl5+rOTuv3LQI3COX+Nbv5HKEMaoUzNrl8uHRfnzHtAt4gjEBJd4Oa8iP31VANeqRJ6MzUNw==
   dependencies:
     "@types/luxon" "*"
     chalk "< 3 && >= 2"
@@ -458,22 +462,23 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fetch-ipfs@^1.0.58:
-  version "1.0.58"
-  resolved "https://registry.npmjs.org/fetch-ipfs/-/fetch-ipfs-1.0.58.tgz#446e1c88a5d7d9922c8623fa388f11f0269e0786"
-  integrity sha512-Woa0wbSXB0lvQTqgcoHB6yFDcEVZzAXgpdBleOiJg6MH1+aZFBd0bSJoF63axN1ve5iLKlatvcZtNzNm/b0hcw==
+fetch-ipfs@^1.0.59:
+  version "1.0.59"
+  resolved "https://registry.npmjs.org/fetch-ipfs/-/fetch-ipfs-1.0.59.tgz#45b4a45d856537c541a10822cf18007e59e9cbf3"
+  integrity sha512-KWAn4mp3okPQ3di0jPnrVM/8QwDwghhfDHNR+sejExBuS7onKgBpCaMLWosfEzattdR27bSaJ6zDLzxDg0xPAw==
   dependencies:
-    "@bluelovers/ipfs-http-client" "^1.0.51"
+    "@bluelovers/ipfs-http-client" "^1.0.52"
     abort-controller "^3.0.0"
-    array-hyper-unique "^1.1.0"
+    abort-controller-timer "^1.0.6"
+    array-hyper-unique "^1.1.2"
     bluebird "^3.7.2"
-    cross-fetch "^3.0.4"
-    ipfs-types "^1.0.24"
-    ipfs-util-lib "^1.0.36"
+    cross-fetch "^3.0.5"
+    ipfs-types "^1.0.25"
+    ipfs-util-lib "^1.0.37"
     is-error-code "^1.0.0"
     p-any "^3.0.0"
     to-ipfs-url "^1.0.12"
-    ts-type "^1.2.17"
+    ts-type "^1.2.23"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -609,12 +614,12 @@ ip-regex@^4.0.0:
   resolved "https://registry.npmjs.org/ip-regex/-/ip-regex-4.1.0.tgz#5ad62f685a14edb421abebc2fff8db94df67b455"
   integrity sha512-pKnZpbgCTfH/1NLIlOduP/V+WRXzC2MOz3Qo8xmxk8C5GudJLgK5QyLVXOSWy3ParAH7Eemurl3xjv/WXYFvMA==
 
-ipfs-api-type@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/ipfs-api-type/-/ipfs-api-type-1.0.6.tgz#cfa7573100c7316cef0eef5d6d01ef350c78c648"
-  integrity sha512-McaoE0Bvwt4BRDYoA7hcGEzxaZ+cm6P8GhN4EyGk42a2nVN5IWrUERddM9R16IGIFlmqyPPvlQskMU+xAQ9BZQ==
+ipfs-api-type@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/ipfs-api-type/-/ipfs-api-type-1.0.7.tgz#f3065d03a361ef83061313d4237f02c70fcefac2"
+  integrity sha512-wQVgxPMJceVuBM7it8WgSoe6ILcOgTTu6l1BMwpCPUpZc/PXRtTmU0l2nt+zKYpz64x6hmw/CCBNdxHGV63JRw==
   dependencies:
-    ipfs-types "^1.0.24"
+    ipfs-types "^1.0.25"
 
 ipfs-core-utils@^0.2.3:
   version "0.2.3"
@@ -663,35 +668,35 @@ ipfs-http-client@^44.2.0:
     parse-duration "^0.1.2"
     stream-to-it "^0.2.0"
 
-ipfs-server-list@^1.0.35:
-  version "1.0.35"
-  resolved "https://registry.npmjs.org/ipfs-server-list/-/ipfs-server-list-1.0.35.tgz#afaef5e4c7517abf383eba804e32aa2c8357a57c"
-  integrity sha512-EmrcbwUnx16nVsiKuWg6ivIMDcLBNDFUF4hHYYInvNEDx3YeJrpruKbVXR0okPSybzbUBOrmRx9JaoUARY0PYg==
+ipfs-server-list@^1.0.36:
+  version "1.0.36"
+  resolved "https://registry.npmjs.org/ipfs-server-list/-/ipfs-server-list-1.0.36.tgz#4a5dfb7e7810bc00bb39643845cb50e7d6634fb9"
+  integrity sha512-0233omWHqz+Ij6fB0zwjnKhqTq16czgZioVHEhzIC4PJXnf64wUvpeJ5yMipz+a4teKrA+hRHwGai5eQo8HEhA==
   dependencies:
-    "@bluelovers/ipfs-http-client" "^1.0.51"
-    ipfs-types "^1.0.24"
-    ts-type "^1.2.17"
+    "@bluelovers/ipfs-http-client" "^1.0.52"
+    ipfs-types "^1.0.25"
+    ts-type "^1.2.23"
 
-ipfs-types@^1.0.24:
-  version "1.0.24"
-  resolved "https://registry.npmjs.org/ipfs-types/-/ipfs-types-1.0.24.tgz#b1fb8b443d335c5977d41e1d6cacfdce8c9702ad"
-  integrity sha512-xga/vN2W2fs1KcwCzmQPpzEt9UjaPaVXpbmQ3UpLzgtiw6UZtXOSlui8rl1zbg4OnGq3cN/jGEFGooflQvZIxQ==
+ipfs-types@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.npmjs.org/ipfs-types/-/ipfs-types-1.0.25.tgz#0e07716361bc012a37dc82d8b7b38f7677e79609"
+  integrity sha512-ePX/EHSJOl/tN4AAGzMAmYNJLPe9470ULJRld0a45TqIvamph8m9+rEA0J2G5PsJ7YJzCpHk9wxrxCBFdtyPlw==
   dependencies:
     "@types/bl" "^2.1.0"
-    ts-type "^1.2.17"
+    ts-type "^1.2.23"
 
-ipfs-util-lib@^1.0.36:
-  version "1.0.36"
-  resolved "https://registry.npmjs.org/ipfs-util-lib/-/ipfs-util-lib-1.0.36.tgz#b3f0ddf75f2ca097afc150723ec5238f1dba8866"
-  integrity sha512-1qeR1wStBCX2u3VDnRoSZ8uo8sAfu79JG4up9sHyjCt5wYa1gUdOOgSENi5S7++9AQgCU+8t7vfg8UZDe+nCeA==
+ipfs-util-lib@^1.0.37:
+  version "1.0.37"
+  resolved "https://registry.npmjs.org/ipfs-util-lib/-/ipfs-util-lib-1.0.37.tgz#45ad4d4789ba8c0aa1cb3c7c81d228835dd85bd6"
+  integrity sha512-MKLz54/fc5WxkPBRcmjFmpe5Rmp3J4skRPNheSyZBKOEL8m7D0xsSsnKU8+HnHJGZUx75CBM7xbRuMFhnuBaag==
   dependencies:
-    "@lazy-ipfs/to-cid" "^1.0.4"
-    array-hyper-unique "^1.1.0"
-    debug-color2 "^1.1.7"
+    "@lazy-ipfs/to-cid" "^1.0.5"
+    array-hyper-unique "^1.1.2"
+    debug-color2 "^1.2.3"
     get-stream "^5.1.0"
-    ipfs-api-type "^1.0.6"
-    ipfs-server-list "^1.0.35"
-    ipfs-types "^1.0.24"
+    ipfs-api-type "^1.0.7"
+    ipfs-server-list "^1.0.36"
+    ipfs-types "^1.0.25"
     micromatch "^4.0.2"
     multiaddr-to-uri "^5.1.0"
     multiaddr-to-url "^1.0.6"
@@ -975,16 +980,16 @@ megajs-extra@^1.0.11:
     mega-nz-url-parse "^1.0.1"
     megajs "^0.17.1"
 
-megajs@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.npmjs.org/megajs/-/megajs-0.17.1.tgz#be7a22797773bf07c6eb97249c83ff3f974dc720"
-  integrity sha512-6gJ8n4yWErvpdEysJA02lGWm87X7mnNon01iRzhmAEoiWEgEzXQPBpR2+GhJPO84Z7mcNIIBcowUUaZ9Z8EApQ==
+megajs@^0.17.1, megajs@^0.17.2:
+  version "0.17.2"
+  resolved "https://registry.npmjs.org/megajs/-/megajs-0.17.2.tgz#5e10c41b240d94c0d9057c22073e35f3dd1fabf4"
+  integrity sha512-zq7Fows6N5HP1UYFkhZ+GfhIAyIzFhCfQ4tEgd90rwhRFLwj9vD7SpYaJ9jvz98ZmqeQSHjKEK2HlWhdBNJm/A==
   dependencies:
-    combined-stream "^1.0.5"
-    request "^2.88.0"
-    secure-random "^1.1.1"
+    combined-stream "^1.0.8"
+    request "^2.88.2"
+    secure-random "^1.1.2"
     stream-combiner "^0.2.2"
-    stream-skip "^1.0.2"
+    stream-skip "^1.0.3"
     through "^2.1.0"
 
 merge-options@^2.0.0:
@@ -1060,6 +1065,14 @@ multibase@^0.7.0, multibase@~0.7.0:
     base-x "^3.0.8"
     buffer "^5.5.0"
 
+multibase@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/multibase/-/multibase-1.0.0.tgz#649b5df279927e5a9f9cd35e42bcd18ecf8ec89f"
+  integrity sha512-J/sf1Pr98nodBEnf8QMyd+gAe3or+9oL6x3hIWpu2d9WbEOA7ot7CU0NPWy5jGoOOIiK0Ej9u4FSOwrBfhNmIA==
+  dependencies:
+    base-x "^3.0.8"
+    buffer "^5.5.0"
+
 multibase@~0.6.0:
   version "0.6.1"
   resolved "https://registry.npmjs.org/multibase/-/multibase-0.6.1.tgz#b76df6298536cc17b9f6a6db53ec88f85f8cc12b"
@@ -1069,14 +1082,14 @@ multibase@~0.6.0:
     buffer "^5.5.0"
 
 multicodec@^1.0.0, multicodec@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/multicodec/-/multicodec-1.0.1.tgz#4e2812d726b9f7c7d615d3ebc5787d36a08680f9"
-  integrity sha512-yrrU/K8zHyAH2B0slNVeq3AiwluflHpgQ3TAzwNJcuO2AoPyXgBT2EDkdbP1D8B/yFOY+S2hDYmFlI1vhVFkQw==
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/multicodec/-/multicodec-1.0.2.tgz#370dd2654cd58f3a93bde22a081d7b735e414779"
+  integrity sha512-IcTBw34qiRGHsEDKlWp2yLQDVZKzRZWjAfUeCYZSqHWszyCAM1o5R9YLLLV1SQVPAa9AVnXKfAA6sjyYZC/2LQ==
   dependencies:
-    buffer "^5.5.0"
+    buffer "^5.6.0"
     varint "^5.0.0"
 
-multihashes@^0.4.19, multihashes@~0.4.15, multihashes@~0.4.17, multihashes@~0.4.19:
+multihashes@^0.4.19, multihashes@~0.4.15, multihashes@~0.4.19:
   version "0.4.19"
   resolved "https://registry.npmjs.org/multihashes/-/multihashes-0.4.19.tgz#d7493cf028e48747122f350908ea13d12d204813"
   integrity sha512-ej74GAfA20imjj00RO5h34aY3pGUFyzn9FJZFWwdeUHlHTkKmv90FrNpvYT4jYf1XXCy5O/5EjVnxTaESgOM6A==
@@ -1173,13 +1186,15 @@ picomatch@^2.0.5:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-poke-ipfs@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.npmjs.org/poke-ipfs/-/poke-ipfs-1.0.21.tgz#3c8152fa363759ffdc8348841ebbdb3e97b6b2c2"
-  integrity sha512-rzA2VByYHILDOVB2aO/wKZBw0lM3sKNROWBSoHhUeGiZfKUBBNxyKLiAT8kl33YlD6rK24QOGNRbflWL9RCxAw==
+poke-ipfs@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/poke-ipfs/-/poke-ipfs-1.1.1.tgz#a9fc1a88737e1c91dbc436f16f9b6cd8993599ff"
+  integrity sha512-/T9rWppaZf71e8lTWgNPWrpN/bBOLNU/r7VySEfaTcP7sK9xg6dvXMyrSs7oUy9Qo2n7RKyqB0MeI1SMgKma/g==
   dependencies:
     "@types/node-fetch" "*"
-    ipfs-types "^1.0.24"
+    abort-controller "^3.0.0"
+    abort-controller-timer "^1.0.6"
+    ipfs-types "^1.0.25"
 
 protocol-buffers-schema@^3.3.1:
   version "3.4.0"
@@ -1233,7 +1248,7 @@ readable-stream@^3.4.0, readable-stream@^3.6.0:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-request@^2.88.0:
+request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.npmjs.org/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
@@ -1274,7 +1289,7 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-secure-random@^1.1.1:
+secure-random@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/secure-random/-/secure-random-1.1.2.tgz#ed103b460a851632d420d46448b2a900a41e7f7c"
   integrity sha512-H2bdSKERKdBV1SwoqYm6C0y+9EA94v6SUBOWO8kDndc4NoUih7Dv6Tsgma7zO1lv27wIvjlD0ZpMQk7um5dheQ==
@@ -1314,7 +1329,7 @@ stream-combiner@^0.2.2:
     duplexer "~0.1.1"
     through "~2.3.4"
 
-stream-skip@^1.0.2:
+stream-skip@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/stream-skip/-/stream-skip-1.0.3.tgz#fb1a7c932a7e9956233cf3196653da86f3546695"
   integrity sha512-2rB0uBiOnYSQwJxJ3wZLher+fz0yyXQxKuKnVTsidHmkqvC8rWZ2AbX50ZVdz7fsL6zkYkqaN/pPD0RldKIbpQ==
@@ -1378,7 +1393,7 @@ ts-toolbelt@^6.9.4:
   resolved "https://registry.npmjs.org/ts-toolbelt/-/ts-toolbelt-6.9.4.tgz#cc3a070d99c557c552b4f69e36f13d430c47a760"
   integrity sha512-muRZZqfOTOVvLk5cdnp7YWm6xX+kD/WL2cS/L4zximBRcbQSuMoTbQQ2ZZBVMs1gB0EZw1qThP+HrIQB35OmEw==
 
-ts-type@^1.2.17:
+ts-type@^1.2.23:
   version "1.2.23"
   resolved "https://registry.npmjs.org/ts-type/-/ts-type-1.2.23.tgz#80acfd3b4fab56c7bb9bad2db99fb12aa8280b2c"
   integrity sha512-FfmY8nLMzQKzQ7rWsnmzWE4dvNtSfOKnXNqX4vFN8JkDRmK9VaP7pgcMDz9DsQh/cb9V9EKZ8s3defn4G6UBvQ==
@@ -1456,11 +1471,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-whatwg-fetch@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
-  integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
 
 wrappy@1:
   version "1.0.2"
