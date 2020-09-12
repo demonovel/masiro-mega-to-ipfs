@@ -52,7 +52,7 @@
     "is-error-code": "^1.0.0",
     "megajs": "^0.17.2",
     "megajs-extra": "^1.0.11",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "poke-ipfs": "^1.1.1",
     "to-ipfs-url": "^1.0.12"
   },
